@@ -19,7 +19,8 @@ module-prop-name = "ytrv-magisk"
 [Messenger]
 build-mode = "apk"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+uptodown-dlurl = "https://facebook-messenger.uptodown.com/android"
 
 [Music-arm64]
 enabled = false
