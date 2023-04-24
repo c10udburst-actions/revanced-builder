@@ -7,7 +7,7 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-enabled = true
+enabled = false
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = "debugging"                                        # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
@@ -16,7 +16,13 @@ exclusive-patches = false                                             # excludes
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
 
+[Messenger]
+build-mode = "apk"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+
 [Music-arm64]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -27,6 +33,7 @@ module-prop-name = "ytmusicrv-magisk"
 arch = "arm64-v8a"
 
 [Music-arm]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -37,22 +44,26 @@ module-prop-name = "ytmusicrv-arm-magisk"
 arch = "arm-v7a"
 
 [Twitter]
+enabled = false
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Reddit]
+enabled = false
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Twitch]
+enabled = false
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
+enabled = false
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
@@ -62,31 +73,12 @@ build-mode = "apk"
 version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
-[Citra]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
-arch = "arm64-v8a"
-
 [Backdrops]
-enabled = false
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-
-[WarnWetter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
-
-[Windyapp]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [IconPackStudio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[TickTick]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-arch = "arm64-v8a"
 
 [Tasker]
 enabled = false
