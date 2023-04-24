@@ -76,6 +76,7 @@ version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Backdrops]
+enabled = false
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
 
 [IconPackStudio]
