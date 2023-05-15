@@ -1,4 +1,4 @@
-CLI: revanced-cli-2.21.0-all.jar  
+CLI: revanced-cli-2.22.0-all.jar  
 Integrations: revanced-integrations-0.107.0.apk  
 Patches: revanced-patches-2.173.0.jar  
 
@@ -13,7 +13,7 @@ Patches: revanced-patches-2.173.0.jar
 
   
 **App Versions:**  
-Messenger-arm64 (arm64-v8a): 406.0.0.13.115  
+Messenger-arm64 (arm64-v8a): 408.1.0.16.113  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
