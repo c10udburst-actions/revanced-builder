@@ -51,7 +51,7 @@ Patches: revanced-patches-2.174.0.jar
 
   
 **App Versions:**  
-Messenger-arm64 (arm64-v8a): 410.0.0.17.85  
+Messenger-arm64 (arm64-v8a): 408.1.0.16.113  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
